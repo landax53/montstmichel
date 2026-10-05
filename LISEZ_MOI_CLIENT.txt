@@ -1,0 +1,28 @@
+﻿ACCOAST | Viewer inspection V2
+
+SOLUTION LA PLUS SIMPLE : heberger le CONTENU de ce dossier sur un site HTTPS.
+Le client recoit un simple lien web, sans installation.
+Faire ouvrir index.html via HTTP(S), pas en double-cliquant dessus.
+
+SOLUTION SANS HEBERGEMENT : extraire le ZIP sur un PC Windows et
+ouvrir OUVRIR_CLIENT_WINDOWS.bat. Garder la fenetre du serveur ouverte.
+Windows PowerShell est integre ; aucune installation de Python ni libvips.
+
+DANS LE VIEWER :
+Explorer : glisser avec la souris et zoomer a la molette.
+Distance/surface : cliquer pour poser les points puis cliquer Terminer.
+Mesures : l'echelle metrique est preparee par AED a partir des GeoTIFF/TFW.
+Si un symbole d'avertissement apparait, demander a AED une livraison calibree.
+La calibration manuelle de secours est reservee a AED (lien ?aed=1).
+Annoter : cliquer a l'emplacement de l'observation puis saisir un commentaire.
+Exporter inspection : genere un JSON a partager pour reprendre le dossier.
+Reprendre une inspection : importe un JSON et remplace l'inspection locale.
+Rapport : ouvre un rapport imprimable, Enregistrer en PDF depuis le navigateur.
+
+IMPORTANT : le navigateur sauvegarde temporairement en stockage local.
+Exporter REGULIEREMENT un JSON pour proteger et transferer les annotations.
+Les donnees ne sont PAS synchronisees entre plusieurs utilisateurs.
+Mesures planimetriques indicatives uniquement : verifier referentiel metrique,
+qualite du modele et plan de projection. Pas de precision metrologique certifiee.
+Le rapport PDF peut integrer les photos de zone et celles des annotations.
+Le logo client est facultatif. Controlez les droits des photographies.
